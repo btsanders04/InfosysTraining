@@ -9,7 +9,7 @@ public class Transcript {
 	public void addCourse(String code, String grade, int credits){
 		CourseEnrollment course = new CourseEnrollment(code,grade,credits);
 		courses.add(course);
-		overallGPA+=course.getPoints();
+		overallGPA+=course.getPoints(); 
 	}
 	
 	
